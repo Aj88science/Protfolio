@@ -103,6 +103,11 @@ p.bottom-class{
 .tesla{
     height: 15rem;
 }
+@media (max-width: 360px){
+    .tesla{
+        height: 14.5rem;
+    }
+}
 
 .hat{
     float: right;
