@@ -1,0 +1,152 @@
+body{
+    margin:0px;
+    text-align: center;
+}
+
+@media (max-width: 360px){
+    body{
+        font-size:14px;
+    }
+}
+
+ul.nav {
+    list-style-type: none;
+    width: 100%;
+    top: 0;
+    margin: 0 0 100px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #185ADB;
+    position: fixed;
+    display: flex;
+  }
+li.nav {
+    float: left;
+  }
+  
+li.nav a {
+    display: block;
+    color: white;
+    font-family: 'Tourney', cursive ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li.nav a:hover {
+    background-color: #171717;
+    transform: scale(1.1);
+}
+
+@media (max-width: 360px) {
+    ul.nav {
+      justify-content: center;
+    }
+  
+    li.nav {
+      margin: 0px;
+      padding: 0px;
+      font-size: 15px;
+    }
+    li.nav a{
+        padding: 10px 10px;
+    }
+    li.nav a:hover {
+      transform: scale(1.2);
+    }
+  }
+  
+.top{
+    background-color: #171717; 
+    padding: 100px 100px 0px 100px;
+}
+h1{
+    color: #185ADB;
+    margin-top: 0px;
+    font-family: 'Tourney', cursive;
+    font-size: 3.5rem;
+}
+@media (max-width: 360px) {
+    h1 {
+      font-size: 2rem;
+      line-height: 1.5;
+    }
+  }
+h2{
+    color: #185ADB;
+    font-family: 'Tourney', cursive;
+}
+@media (max-width: 360px) {
+    h2 {
+      font-size: 1.2rem;
+    }
+}
+
+hr{
+    width: 7%;
+    height: 10px;
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: grey;
+    margin: 100px auto;
+}
+a{
+    text-decoration: none;
+}
+p.bottom-class{
+    color: white;
+}
+.imgo{
+    width: 60%;
+    height: 60%;
+    padding: 10px;
+}
+.tesla{
+    height: 15rem;
+}
+
+.hat{
+    float: right;
+    width: 35%;
+    padding-left: 10px;
+}
+
+.gear{
+    width:35%;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.footer-link{
+    margin: 10px;
+}
+
+a.footer-link:link, a.footer-link:visited{
+    color: #185ADB;
+}
+
+a.footer-link:hover{
+    color: white;
+}
+
+.about{
+    width: 35%;
+    margin: auto;
+}
+
+.qualification{
+    width: 50%;
+    margin:100px auto 100px auto ;
+    text-align: left;
+}
+
+.projects{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+div.bottom-class{
+    background-color: #171717;
+    height: 125px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
