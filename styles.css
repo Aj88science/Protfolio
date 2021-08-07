@@ -105,7 +105,8 @@ p.bottom-class{
 }
 @media (max-width: 360px){
     .tesla{
-        height: 14.5rem;
+        height: 14rem;
+        margin: 0px auto 0px auto;
     }
 }
 
